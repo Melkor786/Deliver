@@ -22,5 +22,5 @@ app.use("/api", require("./Routes/CreateUser"))
 app.use("/api", require("./Routes/Displaydata"))
 app.use("/api", require("./Routes/OrderData"))
 app.listen(port, () => {
-  console.log(`Example app listening on port http://localhost:${port}`)
+  console.log(`app listening on port http://localhost:${port}`)
 })
