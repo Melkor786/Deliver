@@ -1,4 +1,7 @@
 const mongoose = require("mongoose");
+const dotenv = require('dotenv');
+dotenv.config();
+
 
 const mongoDB = async () => {
   try {
@@ -20,4 +23,5 @@ const mongoDB = async () => {
     console.error("Error connecting to MongoDB:", error);
   }
 };
+
 module.exports = mongoDB;
