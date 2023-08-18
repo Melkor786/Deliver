@@ -8,8 +8,6 @@ The app features include user registration, secure login, a dynamic cart system,
  Frontend: React, Bootstrap.<br>
  Backend: Node.js, Express.js, Mongoose.<br>
  Database:  MongoDB.<br>
-# How to run APP: <br>
-  Clone the app by "git clone [repository_url]"<br>
-  Navigate to Project Folder by "cd [app_folder_name]" and<br>
-  Start Frontend, Run command "npm start".<br>
-  Start Backend, Run Command "cd Backend" then run "nodemon index.js"<br>
+# How to run App: <br>
+  For Frontend, Run command "npm start".<br>
+  For Backend, Run Command "cd Backend" then run "nodemon index.js"<br>
